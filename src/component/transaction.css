@@ -1,0 +1,46 @@
+.small{
+    margin-bottom: 8px;
+    font-weight:100
+}
+.bold{
+    font-weight: 500;
+}
+.history-title{
+    display: flex;
+    justify-content: space-between;
+}
+.history-status {
+    background-color:purple;
+    border: 0px solid transparent;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    padding: 4px 12px;
+    color: var(--white)
+}
+.invoice-wrapper{
+    margin-bottom: 8px;
+}
+.description-label{
+    margin-right: 8px;
+}
+
+.description-wrapper{
+    margin-bottom: 8px;
+    display :flex
+}
+
+.remaining-amount-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-wrapper-status--danger{
+    border-left: 2px solid red;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    background-color: white;
+}
+.history-wrapper-status--success{
+    border-left: 2px solid green;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    background-color: white;
+}
